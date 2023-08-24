@@ -1,0 +1,17 @@
+#include<stdio.h>
+int a,b;
+void SwapFunction()
+{
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+}
+int  main()
+{
+    a=5;
+    b=10;
+    printf("Before: %d %d\n",a,b);
+    SwapFunction();
+    printf("After : %d %d\n",a,b);
+}
